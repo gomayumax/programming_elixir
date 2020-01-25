@@ -1,0 +1,4 @@
+iex(5)> "mojiretsu" |> String.replace("re", "RE") |> String.replace("moji", "MOJI")
+"MOJIREtsu"
+iex(6)> "mojiretsu" |> String.replace("re", "RE") |> String.replace("moji", "MOJI") |> String.reverse  
+"ustERIJOM"
